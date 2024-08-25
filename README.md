@@ -10,6 +10,9 @@ The dataset has been split into training and testing sets to facilitate the deve
 
 This dataset not only supports the model training phase but also ensures that the evaluation phase is rigorous and reflective of real-world scenarios. The balanced nature of the dataset, with nearly equal numbers of fractured and non-fractured images, is particularly beneficial for reducing model bias towards any one class.
 
+**Dataset link:** https://drive.google.com/drive/folders/1bMFk7jmarRsduj_beAgRjawmKP04quv4
+
+
 ## Evaluation Metrics
 
 To identify all relevant cases, particularly those with fractures, the following metrics were used:
