@@ -1,8 +1,10 @@
 # Bone-Freacture-Detection-using-Machine-Learning
 The project aims to develop a machine learning-based system for automated bone fracture detection using advanced image preprocessing and feature extraction techniques to improve diagnostic accuracy in X-ray imaging.
 
+![image](https://github.com/user-attachments/assets/4b67186c-f0be-468f-bf77-092f1936ca0d)
 
-to identify all relevant cases, particularly those with fractures. In medical imaging, missing a fracture can lead to serious health consequences, so a high recall rate is crucial to ensure that all potential fractures are detected and examined further.
+
+To identify all relevant cases, particularly those with fractures. In medical imaging, missing a fracture can lead to serious health consequences, so a high recall rate is crucial to ensure that all potential fractures are detected and examined further.
 
 • F1 Score: The F1 Score provides a balance between precision and recall, making it a vital metric in scenarios where class distribution is uneven or where both false positives and false negatives carry significant consequences. The F1 Score is particularly valuable in medical imaging tasks where both the correct identification of fractures and the avoidance of false alarms are critical.
 
