@@ -15,7 +15,15 @@ To identify all relevant cases, particularly those with fractures. In medical im
 **RESULTS AND DISCUSSION**: 
 Upon completion of the testing phase, the results from each model were analyzed and compared to determine the best-performing algorithm. The analysis focused on how well each model balanced the trade-offs between precision and recall, with a particular emphasis on ensuring high recall rates to minimize the risk of missed fractures. The models were also evaluated based on their ability to generalize to new data, as evidenced by their performance on the unseen test set.
 
+![image](https://github.com/user-attachments/assets/36c102f8-6095-4bc8-8d83-3414469ed491)
+
+
 The Random Forest model emerged as the most robust and reliable algorithm, achieving the highest F1 Score and AUC-ROC values. Its ensemble nature allowed it to handle the complexity and variability of the X-ray images effectively, making it particularly well-suited for this application. The Support Vector Machine (SVM) also performed well, especially in terms of precision, but was slightly less effective in maintaining a high recall rate. The Decision Tree and K-Nearest Neighbors (KNN) algorithms showed lower performance, particularly in handling the high-dimensional feature space, while the Logistic Regression and Naïve Bayes models, although useful, did not match the performance of the more sophisticated models like Random Forest.
+
+**Random Forest**
+![image](https://github.com/user-attachments/assets/56ae477f-0a57-40c5-a810-de731bbb8e88)
+
+
 
 **CONCLUSION**: 
 The project successfully demonstrated the potential of machine learning techniques, particularly the Random Forest algorithm, in enhancing the diagnostic accuracy of bone fractures from X-ray images. By addressing the challenges of blurry vision, noisy data, and decision dilemmas inherent in traditional X-ray imaging, the proposed system offers a significant improvement in the quality of medical diagnostics. The integration of this system into a clinical setting through a user-friendly interface ensures that medical professionals can make faster, more informed decisions, ultimately leading to better patient outcomes and reduced healthcare costs.
